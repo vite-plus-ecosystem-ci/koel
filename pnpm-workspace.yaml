@@ -1,0 +1,16 @@
+overrides:
+  form-data@<2.5.4: '>=2.5.4'
+  '@rolldown/pluginutils': 1.0.0-rc.9
+  vite: 'catalog:'
+  vitest: 'catalog:'
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.bb0445bf5599a389c324442a3f3f8a8a5db5d83d
+  vitest: 4.1.10
+  vite-plus: 0.0.0-commit.bb0445bf5599a389c324442a3f3f8a8a5db5d83d
+peerDependencyRules:
+  allowAny:
+    - vite
+    - vitest
+  allowedVersions:
+    vite: '*'
+    vitest: '*'
