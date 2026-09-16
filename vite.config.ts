@@ -90,6 +90,7 @@ export default defineConfig({
     },
   },
   test: {
+    clearMocks: false,
     environment: 'jsdom',
     setupFiles: resolve(__dirname, './resources/assets/js/__tests__/setup.ts'),
     server: {
