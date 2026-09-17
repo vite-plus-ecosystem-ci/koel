@@ -1,4 +1,7 @@
 overrides:
+  '@floating-ui/core': 1.7.2
+  '@floating-ui/dom': 1.7.2
+  '@floating-ui/utils': 0.2.10
   laravel-echo: 2.1.6
   typescript: 5.8.3
   vue: 3.5.29
