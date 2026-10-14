@@ -97,7 +97,6 @@
     "vite-plus": "catalog:",
     "vitepress": "^1.6.3",
     "vitepress-plugin-llms": "^1.11.0",
-    "vitest": "catalog:",
     "vue-tsc": "^3.2.5"
   },
   "engines": {
