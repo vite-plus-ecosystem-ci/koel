@@ -57,8 +57,9 @@ php artisan koel:admin:change-password [<email>]
 ```
 
 #### Arguments
+
 | Name    | Description                                                  |
-|---------|--------------------------------------------------------------|
+| ------- | ------------------------------------------------------------ |
 | `email` | The user's email. If empty, will get the default admin user. |
 
 ### `koel:admin:set-user-role`
@@ -72,8 +73,9 @@ php artisan koel:admin:set-user-role <email>
 ```
 
 #### Arguments
+
 | Name    | Description       |
-|---------|-------------------|
+| ------- | ----------------- |
 | `email` | The user's email. |
 
 ### `koel:clean-up-temp-files`
@@ -88,9 +90,10 @@ php artisan koel:clean-up-temp-files
 ```
 
 #### Options
-| Name     | Description                                                                   |
-|----------|-------------------------------------------------------------------------------|
-| `--age=` | The age of temporary files to remove in minutes. Defaults to 1440 (one day).  |
+
+| Name     | Description                                                                  |
+| -------- | ---------------------------------------------------------------------------- |
+| `--age=` | The age of temporary files to remove in minutes. Defaults to 1440 (one day). |
 
 ### `koel:doctor`
 
@@ -177,10 +180,10 @@ Usage
 php artisan koel:init [options]
 ```
 
-
 #### Options
+
 | Name             | Description                     |
-|------------------|---------------------------------|
+| ---------------- | ------------------------------- |
 | `--no-assets`    | Do not compile front-end assets |
 | `--no-scheduler` | Do not install scheduler        |
 
@@ -203,7 +206,7 @@ php artisan koel:license:activate <key>
 #### Arguments
 
 | Name  | Description                  |
-|-------|------------------------------|
+| ----- | ---------------------------- |
 | `key` | The license key to activate. |
 
 ### `koel:license:deactivate`
@@ -260,7 +263,7 @@ php artisan koel:sync [options] # Alias, deprecated
 #### Options:
 
 | Name             | Description                                                                                                                                                                   |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `O`, `--owner=`  | The ID of the user who should own the newly scanned songs. Defaults to the first admin user.                                                                                  |
 | `P`, `--private` | Whether to make the newly scanned songs private to the user.                                                                                                                  |
 | `I`, `--ignore=` | The comma-separated tags to ignore (exclude) from scanning. Valid tags are `title`, `album`,`artist`, `albumartist`, `track`, `disc`, `year`, `genre`, `lyrics`, and `cover`. |
