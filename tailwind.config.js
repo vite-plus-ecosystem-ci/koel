@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./resources/assets/js/**/*.{vue,js,ts,jsx,tsx}",
-  ],
+  content: ['./resources/assets/js/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
@@ -59,4 +57,3 @@ export default {
   },
   plugins: [],
 }
-
